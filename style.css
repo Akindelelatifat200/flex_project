@@ -124,3 +124,42 @@
 .main img{
     border-radius: 25px;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main{
+        /* flex-direction: column; */
+        margin: 0px;
+        display: block;
+        width: 100%;
+    }
+
+    .container1{
+        /* flex-direction: column; */
+        display: block;
+        width: 100%;
+    }
+
+    .container2{
+        /* flex-direction: column; */
+        display: block;
+        width: 100%;
+    }
+    .container1 .item2{
+        width: 70%;
+        margin-top: 2rem;
+    }
+    .container2 .item3{
+        width: 70%;
+        margin-top: 2rem;
+    }
+    .container2 .item4{
+        margin-top: 2rem;
+    }
+    .sub-div2{
+        width: 58%;
+        margin-top: 2rem;
+    }
+}
