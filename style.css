@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+}
+.main h4{
+    color: white;
+    font-size: 13px;
+}
+.same-txt{
+    padding-left: 1rem;
+}
+.para-txt{
+    padding-left: 1rem;
+}
+.same-txt h4{
+    color: black;
+}
+ .same-txt h6{
+    color: rgb(163, 158, 158);
+}
+.same-txt1{
+    color: rgb(17, 17, 17);
+    padding-top: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+.same-txt2{
+    color: rgb(163, 158, 158);
+    padding-top: 1.5rem;
+    font-size: 13px;
+}
+
+.main h6{
+    font-size: 8px;
+}
+.main .txt1{
+    padding-top: 1rem;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+}
+.main .txt2{
+    padding-top: 1.5rem;
+    font-size: 13px;
+    color: rgb(190, 185, 185);
+}
+
+.container1{
+    display: flex;
+}
+
+.container2{
+    display: flex;
+    margin-top: 2rem;
+}
+.daniel{
+    display: flex;
+}
+.jona{
+    display: flex;
+}
+.jeane{
+    display: flex;
+}
+.patrick{
+    display: flex;
+}
+.kira{
+    display: flex;
+}
+.item1{
+    background-color:rgb(99, 9, 99);
+    border-radius: 5px;
+    margin-left: 2rem;
+    width: 70%;
+    padding: 1.5rem;
+    
+}
+.item2{
+    background-color:rgb(77, 71, 71);
+    border-radius: 5px;
+    margin-left: 2rem;
+    width: 30%;
+    padding: 1.5rem;
+   
+
+}
+.item3{
+    background-color:whitesmoke;
+    border-radius: 5px;
+    margin-left: 2rem;
+    width: 30%;
+    padding: 1.5rem;
+ 
+}
+.item4{
+    background-color:rgb(5, 5, 63);
+    border-radius: 5px;
+    margin-left: 2rem;
+    width: 70%;
+    padding: 1.5rem;
+    
+}
+
+.sub-div1{
+    width: 82%;
+}
+.sub-div2{
+    background-color:whitesmoke;
+    border-radius: 5px;
+    width: 18%;
+    margin-left: 2rem;
+    padding: 1.5rem;
+ 
+}
+
+.main{
+    margin: 10rem;
+}
+
+.main img{
+    border-radius: 25px;
+}
