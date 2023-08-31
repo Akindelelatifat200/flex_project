@@ -2,27 +2,50 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    background-color:#EDF2F8;
+}
+
 .main{
     display: flex;
 }
 .main h4{
-    color: white;
+    color: #EDF2F8;
     font-size: 13px;
 }
 .same-txt{
     padding-left: 1rem;
 }
-.para-txt{
+.para-txt1{
     padding-left: 1rem;
 }
+.para-txt1 h6{
+    color: #875CC9;
+    font-weight: bolder;
+}
+.para-txt2 {
+    padding-left: 1rem;
+}
+.para-txt2 h6{
+    color:#b3bbc7;
+    font-weight: bolder;
+}
+.para-txt3{
+    padding-left: 1rem;
+}
+.para-txt3 h6{
+    font-weight: bolder;
+    color:#6F7581;
+}
 .same-txt h4{
-    color: black;
+    color: #6C7078;
 }
  .same-txt h6{
     color: rgb(163, 158, 158);
 }
 .same-txt1{
-    color: rgb(17, 17, 17);
+    color: #61676E;
     padding-top: 1rem;
     font-size: 16px;
     font-weight: bold;
@@ -39,7 +62,7 @@
 .main .txt1{
     padding-top: 1rem;
     font-size: 16px;
-    color:white;
+    color:#D7D8DC;
     font-weight: bold;
 }
 .main .txt2{
@@ -72,7 +95,7 @@
     display: flex;
 }
 .item1{
-    background-color:rgb(99, 9, 99);
+    background-color:#733FC8;
     border-radius: 5px;
     margin-left: 2rem;
     width: 70%;
@@ -80,7 +103,7 @@
     
 }
 .item2{
-    background-color:rgb(77, 71, 71);
+    background-color:#49556B;
     border-radius: 5px;
     margin-left: 2rem;
     width: 30%;
@@ -89,7 +112,7 @@
 
 }
 .item3{
-    background-color:whitesmoke;
+    background-color:#FFFFFF;
     border-radius: 5px;
     margin-left: 2rem;
     width: 30%;
@@ -97,7 +120,7 @@
  
 }
 .item4{
-    background-color:rgb(5, 5, 63);
+    background-color:#18202D;
     border-radius: 5px;
     margin-left: 2rem;
     width: 70%;
@@ -109,7 +132,7 @@
     width: 82%;
 }
 .sub-div2{
-    background-color:whitesmoke;
+    background-color:#FFFFFF;
     border-radius: 5px;
     width: 18%;
     margin-left: 2rem;
@@ -130,36 +153,78 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .main{
-        /* flex-direction: column; */
-        margin: 0px;
+        
+        margin: 3rem;
         display: block;
+        width: 60%;
+    }
+    .main .txt1{
+        font-size: 15px;
+    }
+    .main .txt2{
+        font-size: 10px;
+    }
+    .main .same-txt1{
+        font-size: 15px;
+    }
+    .main .same-txt2{
+        font-size: 11.5px;
+    }
+    .sub-div1{
         width: 100%;
+    }
+    .sub-div2{
+        width: 80%;
     }
 
     .container1{
-        /* flex-direction: column; */
+        
         display: block;
-        width: 100%;
+        width: 95%;
     }
 
     .container2{
-        /* flex-direction: column; */
+        
         display: block;
+        width: 95%;
+    }
+    .container1 .item1{
         width: 100%;
+        height: 20rem;
+        
     }
     .container1 .item2{
-        width: 70%;
+        width: 100%;
+        height: 10rem;
         margin-top: 2rem;
     }
     .container2 .item3{
-        width: 70%;
+        width: 100%;
+        height: 10rem;
         margin-top: 2rem;
     }
     .container2 .item4{
         margin-top: 2rem;
+        width: 100%;
+        height: 20rem;
     }
     .sub-div2{
-        width: 58%;
+        width:95%;
+        height: 20rem;
         margin-top: 2rem;
+
     }
+    .para-txt1{
+        padding-top: .5rem;
+    }
+    .para-txt2{
+        padding-top: .5rem;
+    }
+    .same-txt{
+        padding-top: .5rem;
+    }
+    .para-txt3{
+        padding-top: .5rem;
+    }
+    
 }
